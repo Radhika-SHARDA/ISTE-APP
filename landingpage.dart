@@ -78,7 +78,7 @@ class _ISTEAppState extends State<ISTEApp> {
         decoration: BoxDecoration(
           gradient: LinearGradient(
             colors: isDarkMode
-                ? [Colors.black87, Colors.deepPurpleAccent]
+                ? [Colors.black87, Colors.grey[900]!]
                 : [Colors.white, Colors.lightBlueAccent],
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
